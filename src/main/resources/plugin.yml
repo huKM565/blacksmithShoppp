@@ -1,0 +1,8 @@
+name: blacksmithShop
+version: '${project.version}'
+main: org.hukm.blacksmithshop.BlacksmithShop
+api-version: '1.20'
+depend: [api]
+commands:
+  blacksmithShop:
+    description: "Позволяет открыть меню кузницы"
